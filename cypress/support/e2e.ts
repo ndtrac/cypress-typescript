@@ -22,7 +22,7 @@ Cypress.on("uncaught:exception", (err, runnable) => {
   return false;
 });
 
-Cypress.Screenshot.defaults({
-  scale: true,
-  capture: "runner",
-});
+// Cypress.Screenshot.defaults({
+//   scale: true,
+//   capture: "runner",
+// });

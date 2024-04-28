@@ -10,11 +10,12 @@
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^7.3.0",
+    "@testing-library/cypress": "^10.0.1",
     "@types/node": "18.15.3",
     "ansi-styles": "^6.2.1",
     "chalk": "^4.1.2",
     "chalk-table": "^1.0.2",
-    "cypress": "^12.6.0",
+    "cypress": "^12.17.4",
     "cypress-eslint-preprocessor": "^1.2.2",
     "cypress-localstorage-commands": "^2.2.2",
     "cypress-terminal-report": "^3.5.2",

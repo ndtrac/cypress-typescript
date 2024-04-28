@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+import { searchInput, searchButton } from "./googleElements";
 
 // export class GooglePage {
 //   // Define CSS selectors for elements on the Google page
@@ -23,7 +24,8 @@ const searchGoogle = (query: string) => {
   // Define CSS selectors for elements on the Google page
   //   let searchInput = `textarea[id='APjFqb']`; // This selector might vary based on Google's HTML structure`;
   //   let searchButton = `input[name="btnK"]`; // This selector might vary based on Google's HTML structure
-  cy.typeByCss(`textarea[id='APjFqb']`, query);
+  // cy.typeByCss(`textarea[id='APjFqb']`, query);
+  cy.typeByCss(searchInput, query);
   //   cy.clickByCss(`input[name="btnK"]`);
 };
 
