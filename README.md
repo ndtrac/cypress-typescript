@@ -1,6 +1,6 @@
 # Cypress TypeScript Project
 
-This is a project that uses Cypress with TypeScript for end-to-end testing.
+This project uses Cypress with TypeScript for end-to-end testing.
 
 ## Project Structure
 
@@ -17,7 +17,7 @@ This is a project that uses Cypress with TypeScript for end-to-end testing.
 
 1. Clone the repository.
 2. Run `npm install` to install the dependencies.
-3. Run `npm test` to run the tests.
+3. Run the tests using the appropriate command. (Note: The current `npm test` command in the [package.json](package.json) file does not run any tests. You may need to update this command to run your Cypress tests.)
 
 ## Custom Commands
 
